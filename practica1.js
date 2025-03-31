@@ -15,6 +15,12 @@ btnNO.addEventListener("mouseover", () => {
   btnNO.style.top = `${nuevaPosY}px`;
 });
 
+const btnCrush = document.querySelector("#crush");
+btnCrush.addEventListener("click", () => {
+  alert("mandame dm linda");
+});
+
+
 //Funciones
 
 function saltaImagen() {
